@@ -1,10 +1,11 @@
-# Simple ftp server
+# ftp server
 
 
 ## How to install:
 
 ```
-cd to the ftp dir
+cd to the dir
+make clean
 make
 execute with ./myftp
 ```
@@ -27,3 +28,6 @@ in my todo list.
 
 This server currently doesn't support ASCII mode but this sould not be a
 problem with any modern system or ftp client.
+
+Control Port: 8021
+Active Data Port: 8020
